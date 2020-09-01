@@ -1,3 +1,4 @@
+//@ts-ignore
 export type StreetType = {
     title: string
 }

@@ -1,3 +1,5 @@
+import React from 'react'
+//@ts-ignore
 const student = {
     name: "Dimych",
     age: 32,
@@ -10,7 +12,7 @@ address: {
     }
 },
 technologies: [
-    {id: 1, title: "CSS"}, 
+    {id: 1, title: "CSS"},
     {id: 2 ,title: "JS"},
     {id: 3 ,title: "React"},
 ]
@@ -25,6 +27,7 @@ name: "Ala",
 age: 32,
 isW: true
 },
+    //@ts-ignore
 khast: {
 country: "Belarus",
     city: {

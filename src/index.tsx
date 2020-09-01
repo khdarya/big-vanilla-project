@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {splitIntoWords} from "./01-hello-tests/01";
+import {User} from "./06-callback/06-callback";
 
 const sentence = "Hello my friend!";
 const result = splitIntoWords(sentence)
@@ -12,7 +13,7 @@ console.log(result[1] === "my");
 console.log(result[2] === "friend");
 
 
-ReactDOM.render(<App />, document.getElementById('root')
+ReactDOM.render(<User />, document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
